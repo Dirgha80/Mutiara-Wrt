@@ -58,6 +58,7 @@ jobs:
           perlbase-file kmod-brcmutil perlbase-essential perlbase-utf8 \
           perlbase-file  perlbase-time perlbase-xsloader coreutils-stat \
           luci-app-amlogic luci-app-ttyd luci-app-diskman luci-app-openclash \
+          luci-app-tailscale tailscale luci-app-droidnet luci-app-ipinfo luci-theme-initials luci-theme-hj \
           " FILES="files" > /dev/null 2>&1 || true
 
       - name: Move Rootfs
