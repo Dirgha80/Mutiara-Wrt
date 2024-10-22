@@ -1,4 +1,4 @@
-name: Compile OpenWrt
+name: Compile OpenWrt2
 on:
   workflow_dispatch:
 
